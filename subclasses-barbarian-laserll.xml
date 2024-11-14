@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+      <name></name>
+      <update version="2.1.1">
+          <file name="subclasses-barbarian-laserll.xml" url="tmp.xml" />
+      </update>
+  </info>
+
+
+<element name="Path of the Iramancer" type="Archetype" source="laserllama's Primal Paths" id="ID_LASERLL_ARCHETYPE_BARBARIAN_IRAMANCER">
+    <supports>Homebrew</supports>
+    <description>
+      <p>Barbarians who folow the Path of the Iramancer, or simply
+iramancers, experience their rage in waves of potent magic
+that defy the norm. These magical surges are channeled to
+manifest as potent spels, tearing through adversaries with
+magical force, rather than brawn. A barbarian that walks
+this path is a force to be reckoned with, as they unify the
+unrestrained might of their rage with a welspring of magical
+power, leaving a trail of chaotic and arcane destruction in
+their wake.</p>
+      <div element="ID_BARBARIAN_IRAMANCER_RAGE_MAGIC" />
+      <div element="ID_BARBARIAN_IRAMANCER_ARCANE_SENSE" />
+      <div element="ID_BARBARIAN_IRAMANCER_PATH_BURST" />
+      <div element="ID_BARBARIAN_IRAMANCER_MAGIC_EVASION" />
+      <div element="ID_BARBARIAN_IRAMANCER_BRUTAL_CASTING" />
+    </description>
+    <sheet display="false">
+      <description>Iramancers experience their rage in waves of potent magic that defy the norm.</description>
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_BARBARIAN_IRAMANCER_RAGE_MAGIC" level="3"/>
+      <grant type="Archetype Feature" id="ID_BARBARIAN_IRAMANCER_ARCANE_SENSE" level="3"/>
+      <grant type="Archetype Feature" id="ID_BARBARIAN_IRAMANCER_PATH_BURST" level="6"/>
+      <grant type="Archetype Feature" id="ID_BARBARIAN_IRAMANCER_MAGIC_EVASION" level="10" />
+      <grant type="Archetype Feature" id="ID_BARBARIAN_IRAMANCER_BRUTAL_CASTING" level="14"/>
+    </rules>
+  </element>
+
+  <element name="Rage Magic" type="Archetype Feature" source="laserllama's Primal Paths" id="ID_LASERLL_ARCHETYPE_BARBARIAN_IRAMANCER_RAGE_MAGIC">
+    <description>
+      <p>Starting when you choose this path at 3rd level, you can
+channel your rage into certain spels. See Spels Rules for the
+general rules of spelcasting.</p>
+      <h5>MAGIC PATHS</h5>
+      <p>Each time you enter your rage, you choose how best to
+channel it through a magic path. You can choose a diferent
+path whenever you enter your rage, which each include four
+different spells: a cantrip and three spells of 1st through 3rd
+level. You gain access to these spells as you gain levels in this
+class.
+
+You can cast a spell from this list while you’re raging, pro-
+vided you have the Rage Magic spell slot to do so; if a spell
+
+requires concentration, you can continue to concentrate on
+the spell for the duration of your rage or until the spell ends,
+whichever comes frst. Spells cast from this list don’t require
+
+material components. If your turn ends and you haven’t at-
+tacked a hostile creature since your last turn or taken damage
+
+since then, your rage doesn’t end early if you cast a spell from
+this list.</p>
+      <h5>MAGIC PATHS</h5>
+      <p>You can cast the cantrip associated with your magic path on
+your turn while you’re raging. You add your Rage Damage to
+the damage dealt by any of your cantrips.</p>
+      <h5>SPELL SLOTS</h5>
+			<p>The Rage Magic table shows how many spell slots you have to
+cast your available path spels. The table also shows what the
+level of those slots is; all of your spell slots are the same level.
+To cast one of your available path spels, you must expend
+a spell slot. You regain all expended Rage Magic spell slots
+when you fnish a short or long rest.</p>
+
+<p class="indent">For example, when you are 6th level, you have two 2nd-lev-
+el spell slots. To cast one of your available path spells, you
+
+must spend one of those slots, and you cast it as a 2nd-level
+spell.</p>
+			
+			<h5>SPELLCASTING ABILITY</h5>
+			<p>Because your magic comes from the intensity of your rage,
+you use your Rage Damage whenever a spel refers to your
+spelcasting ability. In addition, you use your Rage Damage
+when seting the saving throw DC for a path spel you cast
+and when making an atack rol with one.</p>
+			<p class="indent">
+				<b>Spell save DC</b> = 8 + your proficiency bonus + your Rage damage</p>
+			<p class="indent">
+				<b>Spell attack modifier</b> = your proficiency bonus + your Rage damage</p>
+      <p class="indent">
+        If a weapon you’re holding or similar item would grant you
+a bonus to attack rolls, such as a +1 batleaxe, that bonus also
+applies to your spell save DC and spell attacks made with
+your Rage Magic. If something else would normally grant you
+a bonus to your spell save DC or spell attacks, you choose
+which bonus to use.</p>
+      <p class="indent">
+        For the purposes of multiclassing, treat this spellcasting
+feature as if it were separate fom any other. You can’t use
+the spell slots you gain fom other Spellcasting class features
+to cast any path spells that you have Rage Magic spell slots
+for, nor can you use your Rage Magic spell slots to cast a
+spell you have fom another class.</p>
+
+      <table class="class-features">
+        <thead>
+          <tr><td class="col-10">Barbarian Level</td><td class="col-10">Spell Slots</td><td class="col-10">Slot Level</td></tr>
+        </thead>
+        <tr><td> 3rd</td><td>2</td><td>2st</td></tr>
+        <tr><td> 4th</td><td>2</td><td>2st</td></tr>
+        <tr><td> 5th</td><td>2</td><td>2st</td></tr>
+        <tr><td> 6th</td><td>2</td><td>2st</td></tr>
+        <tr><td> 7th</td><td>2</td><td>2nd</td></tr>
+        <tr><td> 8th</td><td>2</td><td>2nd</td></tr>
+        <tr><td> 9th</td><td>3</td><td>3rd</td></tr>
+        <tr><td> 10th</td><td>3</td><td>3rd</td></tr>
+        <tr><td> 11th</td><td>3</td><td>3rd</td></tr>
+        <tr><td> 12th</td><td>3</td><td>3rd</td></tr>
+        <tr><td> 13th</td><td>3</td><td>3rd</td></tr>
+        <tr><td> 14th</td><td>3</td><td>3rd</td></tr>
+        <tr><td> 15th</td><td>3</td><td>4th</td></tr>
+        <tr><td> 16th</td><td>3</td><td>4th</td></tr>
+        <tr><td> 17th</td><td>3</td><td>4th</td></tr>
+        <tr><td> 18th</td><td>3</td><td>4th</td></tr>
+        <tr><td> 19th</td><td>3</td><td>4th</td></tr>
+        <tr><td> 20th</td><td>3</td><td>4th</td></tr>
+      </table>
+    </description>
+    <sheet>
+      <description>Channeling rage to cast spells according to magic path. You have {{shaman:spellcasting:slots:count}} slots of level {{shaman:spellcasting:slot}}.</description>
+    </sheet>
+    <spellcasting name="Iramancer" ability="Rage" allowReplace="true">
+      <list>Iramancer</list>
+    </spellcasting>
+    <rules>
+
+      <select type="Spell" name="Cantrip (Iramancer)" supports="$(spellcasting:list),0" level="3" number="5" spellcasting="WardenBarbarian" />
+
+      <select type="Spell" name="Spellcasting (Iramancer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="3" number="5" spellcasting="Iramancer"/>
+      <select type="Spell" name="Spellcasting (Iramancer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="6" number="4" spellcasting="Iramancer"/>
+      <select type="Spell" name="Spellcasting (Iramancer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="10" number="4" spellcasting="Iramancer"/>
+    </rules>
+  </element>
+
+  <append id="ID_PHB_FIRE_BOLT">
+    <supports>Iramancer</supports>
+  </append>
+ <append id="ID_PHB_RAY_OF_FROST">
+    <supports>Iramancer</supports>
+  </append>
+ <append id="ID_PHB_SHOCKING_GRASP">
+    <supports>Iramancer</supports>
+  </append>
+ <append id="ID_PHB_BURNING_HANDS">
+    <supports>Iramancer</supports>
+  </append>
+ <append id="ID_PHB_INFLICT WOUNDS">
+    <supports>Iramancer</supports>
+  </append>
+ <append id="ID_PHB_SHIELD">
+    <supports>Iramancer</supports>
+  </append>
+ <append id="ID_PHB_THUNDERWAVE">
+    <supports>Iramancer</supports>
+  </append>
+ <append id="ID_PHB_MELF'S_ACID_ARROW">
+    <supports>Iramancer</supports>
+  </append>
+ <append id="ID_PHB_MISTY_STEP">
+    <supports>Iramancer</supports>
+  </append>
+ <append id="ID_PHB_SCORCHING_RAY">
+    <supports>Iramancer</supports>
+  </append>
+ <append id="ID_PHB_SHATTER">
+    <supports>Iramancer</supports>
+  </append>
+ <append id="ID_PHB_PRESTIDIGITATION">
+    <supports>Iramancer</supports>
+  </append>
+ <append id="ID_PHB_DETECT_MAGIC">
+    <supports>Iramancer</supports>
+  </append>
+  <append id="ID_PHB_POISON_SPRAY">
+    <supports>WardenBarbarian</supports>
+  </append>
+ 
+  <element name="Path Burst" type="Archetype Feature" source="laserllama's Primal Paths" id="ID_LASERLL_ARCHETYPE_BARBARIAN_IRAMANCER_PATH_BURST">
+    <description>
+      <p>By 6th level, magical energy is perpetualy weling up inside
+of you, granting you resistance to damage from spels.</p>
+      <p class="indent">Furthermore, this weling of magic can occasionaly
+overfow from you, creating a destructive blast of magic that
+extends from you in a 1'-foot radius. You can create a blast
+as a bonus action while raging. Alternatively, you can create
+a blast when you enter your rage or when you cast a Rage
+Magic spel. You can only create a blast once on each of your
+turns. The type of blast you create depends on your current
+magic path, using your Rage Magic spel save DC.</p>
+    </description>
+    <sheet>
+      <description>You can create a destructive blast of magic that extends from you in a 10-foot radius as a bonus action while raging. Alternatively, you can create a blast when you enter your rage or when you cast a Rage Magic spell. You can only create a blast once on each of your turns. The type of blast you create depends on your current magic path, using Rage Magic spell save DC. After you create a blast, you can immediately choose to change your current magic path. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses of it when you finish a long rest. Starting at 14th leve, the damage from this feature increases to 2d10</description>
+    </sheet>
+  </element>
+
+  <element name="Magic Evasion" type="Archetype Feature" source="laserllama's Primal Paths" id="ID_LASERLL_ARCHETYPE_BARBARIAN_IRAMANCER_MAGIC_EVASION">
+    <description>
+      <p>By 10th level, you can evade the negative efects of magic
+more easily. You have advantage on saving throws against
+spels and other magical efects. In addition, whenever you
+cast a Rage Magic spel or create a magical efect that requires
+a saving throw, you can choose a number of creatures up to your Rage Damage bonus that automaticaly succeed on the
+saving throw against it; you must be able to see the creature.</p>
+    
+    </description>
+    <sheet>
+      <description level="10">You have advantage on saving throws against spells and other magical effects. In addition, whenever you cast a Rage Magic spell or create a magical effect that requires a saving throw, you can choose a number of creatures up to your Rage Damage bonus that automatically succeed on the saving throw against it; you must be able to see the creature.</description>
+      
+    </sheet>
+  </element>
+
+  <element name="Brutal Casting" type="Archetype Feature" source="laserllama's Primal Paths" id="ID_LASERLL_ARCHETYPE_BARBARIAN_IRAMANCER_Brutal_Casting">
+    <description>
+      <p>Starting at 14th level, your magical abilities are as familiar to
+you as the weapons you hold. Immediately afer you use an
+action to cast a spel using your Rage Magic, you can make a
+weapon atack as a bonus action. In addition, your spels gain
+the folowing benefts:</p>
+      <p class="indent">You add your Rage Damage to the damage dealt by your spells, and your Rage Damage bonus is doubled for your cantrips. </p>
+      <p class="indent">You can choose to make your spell attacks receklessly, as if by your Reckless Attack feature. </p>
+      <p class="indent">You can roll additional damage dice when determining the extra damage for a critical hit with a spell attack, as if by your Brutal Critical feature. You use the same damage dice for this as the dice used by the spell. For exmaple, at 14th level, if you scored a critical hit with the ray of frost cantrip, you would roll two additional d8s and add the result to the damage of the attack. </p>
+    </description>
+    <sheet>
+      <description level="14">After using an action to cast a Rage Magic spell, you can make a weapon attack as a bonus action. Add Rage Damage to damage from Rage Magic and double bonus to cantrips, you can choose to make spell attacks recklessly, Brutal Critical applies to critical hits with spell attacks.</description>
+    </sheet>
+</element>
+</elements>
+  
